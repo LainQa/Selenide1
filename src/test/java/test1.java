@@ -23,13 +23,8 @@ public class test1 {
         $(".wiki-rightbar").shouldHave(text("SoftAssertions"));
         $(".wiki-rightbar").$(byText("SoftAssertions")).click();
         $("#wiki-wrapper").shouldHave(text("com.codeborne.selenide.junit.SoftAsserts"));
-
     }
-
-
-
-
-    }
+}
 
 
 
