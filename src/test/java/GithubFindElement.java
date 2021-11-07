@@ -9,14 +9,14 @@ import static com.codeborne.selenide.Selenide.*;
 
 
 
-public class test1 {
+public class GithubFindElement {
     @BeforeAll
     static void beforeAll() {
         Configuration.browserSize= "2560x1440";
     }
 
     @Test
-    void wiki1(){
+    void findText(){
         open("https://github.com/selenide/selenide");
         $("#wiki-tab").click();
         $(".wiki-more-pages-link > button").click();
