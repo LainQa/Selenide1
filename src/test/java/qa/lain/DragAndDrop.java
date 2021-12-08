@@ -15,4 +15,7 @@ public class DragAndDrop {
         $("#column-b").shouldHave(text("A"));
         $("#column-a").shouldHave(text("B"));
     }
+    //1
+    //2
+    //3
 }
