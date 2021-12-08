@@ -16,4 +16,5 @@ public class DragAndDrop {
         $("#column-a").shouldHave(text("B"));
     }
     //1
+    //2
 }
